@@ -9,17 +9,94 @@
 </head>
 <body>
  <div id="header"><!--div是块级元素，没有图片撑开，没空间-->
-     <a href="#" id="login">登录</a>
-     <h1>我的小店</h1>
-     <div id="cart">
-         购物车:$0.00(0件)
-         <img src="img/cart.png" alt="">
+     <div class="wrapper">
+         <div id="main-header">
+             <div id="login" class="float">
+                 <a href="http://www.baidu.com">登录</a>
+             </div>
+             <h1 class="float">我的小店</h1>
+             <div id="cart" class="float">
+                 <span>购物车:$0.00(0件)</span>
+                 <img src="img/cart.png" alt="">
+             </div>
+         </div>
+         <ul id="nav">
+             <li class="selected"><a class=firstsmenu href="">首页</a> </li>
+             <li class="makeup"><a class=firstsmenu href="">美妆商城</a>
+             <div id="submenu">
+                 <ul class="inline-submenu">
+                     <li><h4 class="under1" id="un">护肤</h4></li><hr/>
+                     <li><a class="under1" href="">洁面</a></li>
+                     <li><a class="under1" href="">化妆水</a></li>
+                     <li><a class="under1" href="">乳液</a></li>
+                     <li><a class="under1" href="">精华</a></li>
+                     <li><a class="under1" href="">面膜</a></li>
+                     <li><a class="under1" href="">面霜</a></li>
+                 </ul>
+                 <ul class="inline-submenu">
+                     <li><h4 class="under1" id="un">彩妆</h4></li><hr/>
+                     <li><a class="under1" href="">底妆</a></li>
+                     <li><a class="under1" href="">眼妆</a></li>
+                     <li><a class="under1" href="">唇妆</a></li>
+                     <li><a class="under1" href="">卸妆</a></li>
+                     <li><a class="under1" href="">美妆工具</a></li>
+                     <li><a class="under1" href="">套装</a></li>
+                 </ul>
+                 <ul class="inline-submenu">
+                     <li><h4 class="under1" id="un">香水</h4></li><hr/>
+                     <li><a class="under1" href="">女士香水</a></li>
+                     <li><a class="under1" href="">男士香水</a></li>
+                     <li><a class="under1" href="">中性香水</a></li>
+                     <li><a class="under1" href="">Q版香水</a></li>
+                     <li><a class="under1" href="">香水套装</a></li>
+                     <li><a class="under1" href="">精油</a></li>
+                 </ul>
+                 <ul class="inline-submenu">
+                     <li><h4 class="under1" id="un">男士护理</h4></li><hr/>
+                     <li><a class="under1" href="">面部护理</a></li>
+                     <li><a class="under1" href="">身体护理</a></li>
+                     <li><a class="under1" href="">护理套装</a></li>
+                     <li><a class="under1" href="">洁面</a></li>
+                     <li><a class="under1" href="">爽肤水</a></li>
+                     <li><a class="under1" href="">男士洗护</a></li>
+                 </ul>
+             </div>
+             </li>
+             <li class="makeup"><a class=firstsmenu href="">特卖专场</a>
+                 <div id="submenu2"></div>
+             </li>
+             <li class="makeup"><a class=firstsmenu href="">新品上市</a>
+                 <div id="submenu3"></div>
+             </li>
+             <li class="makeup"><a class=firstsmenu href="">潮人推荐</a>
+                 <div id="submenu4"></div>
+             </li>
+             <li class="makeup"><a class=firstsmenu href="">进口免税店</a>
+                 <div id="submenu5"></div>
+             </li>
+         </ul>
      </div>
-
  </div>
- <div id="new-product"></div>
+ <!--<hr style="marfin-top:10px">-->
+ <div id="new-product">
+     <div class="wrapper">
+         <a href="#">
+             <div id="bg1" class="product"><h4>特卖专场</h4></div>
+         </a>
+         <a href="#">
+             <div id="bg2" class="product"><h4>新品上市</h4></div>
+         </a>
+         <a href="#">
+             <div id="bg3" class="product"><h4>进口免税</h4></div>
+         </a>
+     </div>
+ </div>
  <div id="product"></div>
  <div id="problem"></div>
- <div id="footer"></div>
+ <div id="footer">
+     <div class="wrapper">
+         <a href="">我的小店</a>
+     </div>
+ </div>
 </body>
 </html>
