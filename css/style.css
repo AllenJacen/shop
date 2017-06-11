@@ -1,0 +1,14 @@
+/*css重置*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}/*去掉a的下划线*/
+img{
+    border:0px;
+}/*当一个图片，外面有一个a的标签，在ie6中会有一个蓝色的边框。*/
+li{
+    list-style: none;
+}

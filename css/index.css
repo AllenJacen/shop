@@ -1,0 +1,187 @@
+#header{
+    background: url("../img/banner.jpg") no-repeat center;
+    height:600px;
+}
+#login a:hover{
+    text-decoration: underline;
+    /*border-bottom: 1px solid #fff;*/
+}
+#login,#header h1{
+    color: white;
+    /*display: inline-block;*/
+    float: left;
+    width: 380px;
+}
+#header h1.float{
+    text-align: center;
+}
+#login a{
+    color:#fff;
+}
+#cart{
+    width: 260px;
+    height: 30px;
+    background-color: #000;
+    opacity: 0.7;/*透明，取值是透明0-1不透明*/
+    filter:alpha(opacity=70); /*为了在IE6下使用，透明，取值是0-100*/
+    color: #fff;
+    text-align:center;
+    padding:10px 20px;
+    cursor: pointer;
+    margin-top: 25px;
+    line-height: 30px;
+    margin-left: 80px;
+    /*float: right;权重值问题导致没有右浮动，任是左浮动*/
+}
+#header .float{
+    float: left;
+}
+#header img{
+     vertical-align: middle;
+ }
+#main-header{
+    height:100px;
+    /*background: #ff0000;*/
+    line-height: 100px;
+
+}
+/*#header .wrapper{
+    display: block;
+    height: 30px;
+}*/
+/*#nav{
+   float: left;
+   /!*height: 80px;*!/
+}*/
+#nav .makeup,#nav .selected{
+    width: 190px;
+    height: 40px;
+    background-color: #fa558f;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+}
+#nav .makeup:hover{
+    background: #3c3b3b;
+}
+#nav .firstsmenu{
+    color: #ffffff;
+    width:100%;
+    height: 100%;
+    display: block;
+}
+#nav .under1{
+    color: rgb(153, 153, 153);
+}
+#nav .selected{
+ background: #3c3b3b;
+}
+#nav  #submenu .inline-submenu,#nav  #submenu2 .inline-submenu,#nav  #submenu3 .inline-submenu,#nav  #submenu4 .inline-submenu,#nav  #submenu5 .inline-submenu{
+    width: 200px;
+    height: 300px;
+    float: left;
+}
+#nav .inline-submenu li{
+    width: 200px;
+    height: 42px;
+    /*margin-top: 30px;*/
+    /*display: inline-block;*/
+}
+#nav .inline-submenu li .under1{
+    display: inline-block;
+    margin:0 120px 0 0;
+}
+#nav .inline-submenu li #un{
+    margin-top: 10px;
+    color:#000;
+}
+ #submenu,#submenu2,#submenu3,#submenu4,#submenu5{
+     width: 1140px;
+     height: 300px;
+     background: #ffffff;
+     display:none;
+}
+#submenu{
+    margin-left: -190px;
+}
+/*
+#submenu2{
+    margin-left: -380px;
+}
+#submenu3{
+    margin-left: -570px;
+}#submenu4{
+     margin-left: -760px;
+ }
+#submenu5{
+    margin-left: -950px;
+}
+*/
+/*.makeup:hover #submenu2,.makeup:hover #submenu3,.makeup:hover #submenu4,.makeup:hover #submenu5*/
+ .makeup:hover #submenu{
+ display:block;
+ }
+hr{
+    width: 190px;
+    /*height: 2px;*/
+}
+#new-product{
+    margin-top: 50px;
+    height: 220px;
+}
+/*#new-product .wrapper{
+    height: 220px;
+    margin:0 auto;
+}*/
+.product{
+   width: 350px;
+    height: 200px;
+    /*margin-right: 20px;*/
+    /*background: #000000;*/
+    float: left;
+    overflow: hidden;
+    font-size: 2.5em;
+    font-weight: 600;
+    color: #ffffff;
+}
+#new-product .product h4{
+    margin:120px 0 100px 180px;
+}
+#bg2{
+    margin-left: 20px;
+    margin-right: 20px;
+    background-image: url("../img/bg2.jpg");
+}
+#bg1{
+    margin-left: 25px;
+    background-image: url("../img/bg1.jpg");
+
+}
+#bg3{
+    background-image: url("../img/bg3.jpg");
+}
+#product{
+    height: 1000px;
+    background: #ffffff;
+}
+#problem{
+    height: 400px;
+    background-image:url("../img/b1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; /*ie不支持*/
+}
+#footer{
+     height: 100px;
+    background: #fa558f;
+    padding: 30px 0 30px 0;
+
+ }
+#footer .wrapper{
+    height:40px;
+    line-height: 40px;
+}
+#footer .wrapper a{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+}
