@@ -169,12 +169,12 @@ hr{
     background-image:url("../img/b1.jpg");
     background-repeat: no-repeat;
     background-size: cover; /*ie不支持*/
+    opacity:0.4;/*透明，取值是透明0-1不透明*/
+    filter:alpha(opacity=40); /*为了在IE6下使用，透明，取值是0-100*/
 }
 #footer{
      height: 100px;
     background: #fa558f;
-    padding: 30px 0 30px 0;
-
  }
 #footer .wrapper{
     height:40px;
