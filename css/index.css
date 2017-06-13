@@ -125,6 +125,7 @@ hr{
     width: 190px;
     /*height: 2px;*/
 }
+/*  new-product开始  */
 #new-product{
     margin-top: 50px;
     height: 220px;
@@ -133,7 +134,7 @@ hr{
     height: 220px;
     margin:0 auto;
 }*/
-.product{
+.new-product3{
    width: 350px;
     height: 200px;
     /*margin-right: 20px;*/
@@ -144,7 +145,7 @@ hr{
     font-weight: 600;
     color: #ffffff;
 }
-#new-product .product h4{
+#new-product .new-product3 h4{
     margin:120px 0 100px 180px;
 }
 #bg2{
@@ -160,22 +161,113 @@ hr{
 #bg3{
     background-image: url("../img/bg3.jpg");
 }
+/*  new-product结束  */
+
+/* product开始 */
 #product{
     height: 1000px;
     background: #ffffff;
 }
+#product{
+    width: 100%;
+    height: 1040px;
+}
+#product .wrapper{
+    height: 975.2px;
+    margin-top: 50px;
+}
+#product .wrapper .product-fix{
+    width: 342px;
+    float: left;
+    border:solid 1.5px #ccc;
+    margin: 28px 16px 20px 18px ;
+    height: 442px;background: #FCF9FF;
+}
+#product .wrapper .b-wapper{
+    width: 100%;
+    height: 247.5px;
+    background: white;
+}
+#product .wrapper .b-wapper .bs{
+    width: 247.5px;
+    height: 247.5px;
+    border: 1px solid #cccccc;
+}
+/*.product-fix{
+    position: absolute;
+}*/
+
+.product-fix .new{
+    background: #fa558f;
+    color: white;
+    height: 30px;
+    width: 52.66px;
+    line-height: 30px;
+    text-align: center;
+    float: right;
+    /*margin-left: 296.34px;*/
+  /*  position: relative;
+    right: 0px;
+    top: 0px;*/
+}
+.product-info-cust-border{
+    height: 194.5px;
+    width: 342px;
+}
+.product-info-cust{
+    height: 169.4px;
+    padding:11.2px 16.8px;
+}
+.product-info-cust h4{
+    height: 50px;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+.product-info-cust .item_price{
+    height: 26.4px;
+    font-weight: 900;
+    font-size: 1.4em;
+    display: block;
+}
+.product-info-cust .item-quantity{
+    height: 16.8px;
+    width: 128px;
+    padding: 5px 10px;
+    border: solid 1px #000;
+    margin: 11.9px 0px;
+    display: block;
+    cursor: pointer;
+}
+.product-info-cust .item-add{
+    background: #ef8743;
+    padding: 0.7em 1.5em;
+    margin: 0px 16px 0px 0px;
+    font-weight: 600;
+    font-size: 1em;
+    /*line-height: inherit;*/
+    color:#fff;
+    border:none;
+    display: inline-block;
+    /*border-radius: 8%;*/
+    border-radius: 6px;
+    cursor: pointer;
+}
+/* product结束 */
+
+/* problem开始 */
 #problem{
     height: 400px;
-    background-image:url("../img/b1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; /*ie不支持*/
-    opacity:0.4;/*透明，取值是透明0-1不透明*/
-    filter:alpha(opacity=40); /*为了在IE6下使用，透明，取值是0-100*/
+    width: 100%;
+    background:url(../img/banner2.jpg) no-repeat center;
+   background-size: cover; /*ie不支持*/
+  /*  opacity:0.4;/!*透明，取值是透明0-1不透明*!/
+    filter:alpha(opacity=40); /!*为了在IE6下使用，透明，取值是0-100*!/!*!/*/
 }
+
 #footer{
-     height: 100px;
+    height: 100px;
     background: #fa558f;
- }
+}
 #footer .wrapper{
     height:40px;
     line-height: 40px;
